@@ -1,5 +1,6 @@
 
 import About from "./section/about/About"
+import Experience from "./section/experience/Experience"
 import Hero from "./section/hero/Hero"
 
 
@@ -9,6 +10,7 @@ const Home = () => {
      
         <Hero/>
         <About/>
+        <Experience/>
       
     </div>
   )

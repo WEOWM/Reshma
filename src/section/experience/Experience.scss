@@ -1,0 +1,9 @@
+.experience {
+    background-color: rgba(0, 0, 0, 0.948);
+   
+      .work-content_bar {
+        @apply flex-1 w-0.5 mt-4 h-full bg-black group-hover:bg-black group-last:hidden;
+      }
+}
+
+// group-hover:bg-slate-300 group-last:hidden;

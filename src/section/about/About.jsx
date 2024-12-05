@@ -95,9 +95,9 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex justify-center pb-3">
-          <Button path={"/"}>
-            Contacts us
+        <div className="flex justify-center pb-3 ">
+          <Button path={"/"} className={"hover-target"}>
+            Contact Me
           </Button>
         </div>
         
@@ -133,7 +133,7 @@ const About = () => {
             className="flex justify-center items-center gap-3 capitalize cursor-pointer "
             onClick={handleCopy}
           >
-            <p className="hover-target">
+            <p className="hover-target pb-5">
               {hasCopied ? (
                 <LuCopyCheck size={35} />
               ) : (
