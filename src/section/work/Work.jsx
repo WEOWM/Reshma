@@ -1,10 +1,10 @@
 import { Suspense, useState } from "react";
 import { GiPaperArrow } from "react-icons/gi";
 import { GoArrowLeft } from "react-icons/go";
-import './work.scss'
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import Room from "../../components/demo/room/Room";
+import './Work.scss'
 
 const Work = () => {
   const work = [
