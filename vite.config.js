@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server:{
     host:"0.0.0.0",
-    post:5173
+    post:5178
   }
 })

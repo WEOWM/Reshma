@@ -30,8 +30,6 @@ const About = () => {
     useFrame(() => {
       if (meshRef.current) {
         meshRef.current.rotation.y -= 0.01 * 0.1;
-       
-      
       }
     });
 
@@ -52,7 +50,7 @@ const About = () => {
           className="w-full sm:h-[276px] h-fit object-contain"
         />
         <div className="text-white">
-          <p className="text-2xl font-bold hover-target">Hi, I’m Reshma</p>
+          <p className="text-2xl font-bold hover-target w-44">Hi, I’m Reshma</p>
           <p className="text-2xl font-semibold capitalize text-[17px] text-slate-300 ">
             a skilled React Native developer with 4+ years of experience
             building cross-platform applications and dynamic web solutions. I
@@ -68,7 +66,7 @@ const About = () => {
           className="w-full sm:h-[276px] h-fit object-contain"
         />
         <div className="text-white">
-          <p className="text-2xl font-bold hover-target">Tech Stack</p>
+          <p className="text-2xl font-bold hover-target w-36 ">Tech Stack</p>
           <p className="text-2xl font-semibold capitalize text-[17px] text-slate-300 ">
             A dedicated React Native developer with 4+ years of experience in
             building high-quality, cross-platform mobile applications. I
@@ -81,7 +79,7 @@ const About = () => {
       <div className="xl:col-span-1 xl:row-span-4 border rounded-md">
         <div className="w-full h-[50vh]">
           <Canvas className="w-full h-fit rounded-md flex justify-center items-center ">
-            {/* <OrbitControls enableZoom={true} enablePan={true} enableRotate /> */}
+            {/* <OrbitControls enableZoom={true} enablePan={true} enableRotate={false}  /> */}
             <directionalLight position={[1, 1, 1]} intensity={8} />
             <color />
             <RotationCube  />
@@ -95,8 +93,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex justify-center pb-3 ">
-          <Button path={"/"} className={"hover-target"}>
+        <div className="flex justify-center pb-3  ">
+          <Button path={"/"} className={"hover-target "}>
             Contact Me
           </Button>
         </div>
@@ -109,7 +107,7 @@ const About = () => {
           className="w-full sm:h-[276px] h-fit object-contain"
         />
         <div className="text-white">
-          <p className="text-2xl font-bold hover-target">
+          <p className="text-2xl w-72  font-bold hover-target">
             My Passion for Coding
           </p>
           <p className="text-2xl font-semibold capitalize text-[17px] text-slate-300 ">
@@ -127,13 +125,13 @@ const About = () => {
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
-        <div className="text-white  ">
-          <p className="grid-subtext text-center">Contact me</p>
+        <div className="text-white  pb-1">
+          <p className="grid-subtext text-center ">Contact me</p>
           <div
             className="flex justify-center items-center gap-3 capitalize cursor-pointer "
             onClick={handleCopy}
           >
-            <p className="hover-target pb-5">
+            <p className="hover-target ">
               {hasCopied ? (
                 <LuCopyCheck size={35} />
               ) : (
