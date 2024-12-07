@@ -125,7 +125,7 @@ const About = () => {
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
-        <div className="text-white  pb-1">
+        <div className="text-white max-sm:pb-4">
           <p className="grid-subtext text-center ">Contact me</p>
           <div
             className="flex justify-center items-center gap-3 capitalize cursor-pointer "
