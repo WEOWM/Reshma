@@ -45,7 +45,7 @@ const About = () => {
     <section className="about-section pt-1">
       <div className="xl:col-span-1 xl:row-span-3 border rounded-md p-5">
         <img
-          src="public/asset/grid1.png"
+          src="/assets/grid1.png"
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
@@ -61,7 +61,7 @@ const About = () => {
       </div>
       <div className="xl:col-span-1 xl:row-span-3 border rounded-md p-5">
         <img
-          src="public/asset/grid2.png"
+          src="/assets/grid2.png"
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
@@ -102,7 +102,7 @@ const About = () => {
       </div>
       <div className="xl:col-span-2 xl:row-span-5 border rounded-md p-5">
         <img
-          src="public/asset/grid3.png"
+          src="/assets/grid3.png"
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
@@ -121,7 +121,7 @@ const About = () => {
       </div>
       <div className="xl:col-span-1 md:col-span-2 xl:row-span-4 border rounded-md">
         <img
-          src="public/asset/grid4.png"
+          src="/assets/grid4.png"
           alt=""
           className="w-full sm:h-[276px] h-fit object-contain"
         />
